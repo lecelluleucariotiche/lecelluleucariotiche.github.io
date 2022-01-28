@@ -62,9 +62,32 @@ backdrop-filter: blur( 2.5px );
 border: 1px solid rgba( 255, 255, 255, 0.18 );*/
 }
 
-.contenuto-princ{
+#nomi{
 	position: absolute;
 	margin-top: 85vh;
+	height: 10vh;
+	border: 1px solid #dcdde1;
+	width: 100%;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#nomi ul{
+	width: 80%;
+}
+#nomi li{
+	display: inline-block;
+	font-size: 1.5rem;
+	padding: .5%;
+}
+.acd{
+	font-weight: 600;
+}
+.contenuto-princ{
+	position: absolute;
+	margin-top: 100vh;
 	width: 90%;
 	height: 100vh;
 	color: #9c88ff;
@@ -116,13 +139,17 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
 	transform: translateX(50%);
 }
 .contenuto-princ{
-	margin-top: 55vh;
+	margin-top: 90vh;
 }
 .princ{
 	width: 100%;
 }
 .titolo{
 	font-size: 1rem;
+}
+#nomi{
+margin-top: 55vh;
+height: 30vh;
 }
 }
 
