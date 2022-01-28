@@ -171,7 +171,8 @@ a{
 
 .cea{
 	margin-left: 50%;
-	transform: translateX(-50%) scale(1.2);
+	transform: translateX(-50%);
+	width: 50%;
 	margin-top: 15vh;
 }
 .quattro::after{
@@ -285,7 +286,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
 .princ{
   height: 50vh;
 }
-
+.cea{
+	width: 80%;
+}
 #menu-content{
 	transform: 	translateX(	-100%);
 	width: 100%;

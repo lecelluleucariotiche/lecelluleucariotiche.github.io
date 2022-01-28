@@ -82,7 +82,8 @@ a{
 .mb{
 	margin-top: 15vh;
 	margin-left: 50%;
-	transform: translateX(-50%) scale(1.3);
+	transform: translateX(-50%);
+	width: 50%;
 }
 #menu:hover #b1{
 	transform: scaleX(0);
@@ -316,7 +317,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
 .princ{
   height: 50vh;
 }
-
+.mb{
+	width: 80%;
+}
 #menu-content{
 	transform: 	translateX(	-100%);
 	width: 100%;

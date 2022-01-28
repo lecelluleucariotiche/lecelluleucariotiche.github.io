@@ -23,7 +23,8 @@ body{
 .cev{
 	margin-top: 15vh;
 	margin-left: 60%;
-	transform: scale(1.2) translateX(-50%);
+	width: 50%;
+	transform: translateX(-50%);
 }
 a{
 	text-decoration: none;
@@ -292,6 +293,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
 }
 #menu-content.active{
 	transform: translateX(50%);
+}
+.cev{
+	width: 80%;
 }
 .contenuto-princ{
 	margin-top: 55vh;
