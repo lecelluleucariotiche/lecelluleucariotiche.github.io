@@ -458,4 +458,81 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
 .titolo{
 	font-size: 1rem;
 }
+
+#video-1-div{
+	position: absolute;
+	display: none;
+	background-color: white;
+	z-index: 1000;
+	margin-left: 50%;
+	margin-top: 50vh;
+	width: 70%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+}
+
+#video-1-div.active{
+	display: block;
+}
+
+#video-3-div{
+	position: absolute;
+	display: none;
+	background-color: white;
+	z-index: 1000;
+	margin-left: 50%;
+	margin-top: 50vh;
+	width: 70%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+}
+
+#video-3-div.active{
+	display: block;
+}
+#video-4-div{
+	position: absolute;
+	display: none;
+	background-color: white;
+	z-index: 1000;
+	margin-left: 50%;
+	margin-top: 50vh;
+	width: 70%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+}
+
+#video-5-div{
+	position: absolute;
+	display: none;
+	background-color: white;
+	z-index: 1000;
+	margin-left: 50%;
+	margin-top: 50vh;
+	width: 70%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+}
+
+#video-5-div.active{
+	display: block;
+}
+#video-4-div.active{
+	display: block;
+}
+#video-2-div{
+	position: absolute;
+	display: none;
+	background-color: white;
+	z-index: 1000;
+	margin-left: 50%;
+	margin-top: 50vh;
+	width: 70%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+}
+
+#video-2-div.active{
+	display: block;
+}
 }
