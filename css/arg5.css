@@ -14,6 +14,15 @@ body{
 	display: flex;
 	justify-content: center;
 }
+.ma{
+	margin-left: 50%;
+	transform: translateX(-50%);
+	margin-top: 15vh;
+}
+.cl{
+	transform: scale(0.6) translateX(-50%);
+	margin-left: 30%;
+}
 ::-webkit-scrollbar {
   width: 10px;
 }

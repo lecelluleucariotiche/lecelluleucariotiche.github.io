@@ -20,6 +20,11 @@ body{
   border-radius: 3px;
 }
 
+.cev{
+	margin-top: 15vh;
+	margin-left: 60%;
+	transform: scale(1.2) translateX(-50%);
+}
 a{
 	text-decoration: none;
 	color: #9c88ff;
