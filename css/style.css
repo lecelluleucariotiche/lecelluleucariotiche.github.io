@@ -139,7 +139,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
 	transform: translateX(50%);
 }
 .contenuto-princ{
-	margin-top: 90vh;
+	margin-top: 95vh;
 }
 .princ{
 	width: 100%;
@@ -149,7 +149,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );*/
 }
 #nomi{
 margin-top: 55vh;
-height: 30vh;
+height: 40vh;
 }
 }
 
